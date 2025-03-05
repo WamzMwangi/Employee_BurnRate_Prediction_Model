@@ -22,7 +22,12 @@ The dataset used for this project consists of HR Analytics data including, when 
 All rows with missing values in the target variable were droped. Missingness in the 'Resource Allocation' and 'Mental Fatigue Score' were imputed using median and mean respectively based on their distributions.
 
 
+| Missingness in the data  | Data distributions of missing features |
+|:--------------:|:--------------:|
+| ![Visualization of missingness in the data with missingno](missing_data_matrix.png)| ![Data Distributions](data_distributions.jpg) |
+
 #### 3.2 Univariate Analysis
+
 
 #### 3.3 Bivariate Analysis
 
