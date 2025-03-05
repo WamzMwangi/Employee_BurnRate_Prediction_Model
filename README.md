@@ -22,27 +22,41 @@ The dataset used for this project consists of HR Analytics data including, when 
 All rows with missing values in the target variable were droped. Missingness in the 'Resource Allocation' and 'Mental Fatigue Score' were imputed using median and mean respectively based on their distributions.
 
 
+| Missingness in the data  | Data distributions of missing features |
+|:--------------:|:--------------:|
+| <img src="missing_data_matrix.png" width="400"> | <img src="data_distributions.png" width="400"> |
+
+
 #### 3.2 Univariate Analysis
+This section will briefly highlight some of the insights learned from univariate analysis
+The majority of employees hold mid-senior level positions, indicating a workforce with substantial experience and expertise. Their daily working hours typically range between 4 to 5 hours, suggesting a flexible or results-driven work environment. The short working hours could also suggest that the work is mostly project-based and propably their is an emphasis on quality and not quantity.
+
+![Alt text](distributions.png)
+
+The inference that the work environment is flexible is further supported by the fact that majority of employees have work from home setup available for them. There is relatively an equal gender balance, with female employees being slightly more than male employees and majority of the workforce work in the service department.
+![Alt text](count_plots.png)
 
 #### 3.3 Bivariate Analysis
+From a correlation analysis we learn that:
+-The high your seniority, the more burn out.
+-The more hours you work, the higher your burn rate.
+-An increase in mental fatigue results in an increase in burn out rate.
+
+<img src="correlation_heatmap.png" width="400">
 
 
+## 4. Model Performance & Evaluation
+Four regression models were trained using 5-fold cross validation to ensure robust performance and evaluated based on mean squared error. The two best performing models, were optimized using Grid-search CV, and the random forest regressor was the best performing model with an mse score of 0.0036.
 
-## 4. Model Performance
+<img src="model_performance.png" width="400">
 
-
-
-
-## 5. Evaluation 
-
-
-## 6. Contributing
+## 5. Contributing
 1. Fork & clone the repo locally
 2. Create a new branch
 3. Make changes on your branch
 4. Open a pull request and submit your work for review
    
-## 7. Contact Information
+## 6. Contact Information
 Please reach me via email at: mwangi25.mercy@gmail.com
 
 
