@@ -24,11 +24,14 @@ All rows with missing values in the target variable were droped. Missingness in 
 
 | Missingness in the data  | Data distributions of missing features |
 |:--------------:|:--------------:|
-| <img src="missing_data_matrix.png" width="400"> | <img src="data_distributions.jpg" width="400"> |
+| <img src="missing_data_matrix.png" width="400"> | <img src="data_distributions.png" width="400"> |
 
 
 #### 3.2 Univariate Analysis
+This section will brieflu highlight some of the insights learned from univariate analysis
+The majority of employees hold mid-senior level positions, indicating a workforce with substantial experience and expertise. Their daily working hours typically range between 4 to 5 hours, suggesting a flexible or results-driven work environment. The short working hours could also suggest that the work is mostly project-based and propably their is an emphasis on quality and not quantity.
 
+![Alt text](distributions.png)
 
 #### 3.3 Bivariate Analysis
 
