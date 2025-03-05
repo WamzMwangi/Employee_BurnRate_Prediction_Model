@@ -45,21 +45,18 @@ From a correlation analysis we learn that:
 <img src="correlation_heatmap.png" width="400">
 
 
-## 4. Model Performance
+## 4. Model Performance & Evaluation
+Four regression models were trained using 5-fold cross validation to ensure robust performance and evaluated based on mean squared error. The two best performing models, were optimized using Grid-search CV, and the random forest regressor was the best performing model with an mse score of 0.0036.
 
+<img src="model_performance.png" width="400">
 
-
-
-## 5. Evaluation 
-
-
-## 6. Contributing
+## 5. Contributing
 1. Fork & clone the repo locally
 2. Create a new branch
 3. Make changes on your branch
 4. Open a pull request and submit your work for review
    
-## 7. Contact Information
+## 6. Contact Information
 Please reach me via email at: mwangi25.mercy@gmail.com
 
 
