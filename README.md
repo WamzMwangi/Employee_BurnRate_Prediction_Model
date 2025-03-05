@@ -42,8 +42,7 @@ From a correlation analysis we learn that:
 -The more hours you work, the higher your burn rate.
 -An increase in mental fatigue results in an increase in burn out rate.
 
-
-![Alt text](correlation_heatmap.png)
+<img src="heatmap_correlation.png" width="400">
 
 
 ## 4. Model Performance
