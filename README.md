@@ -17,14 +17,23 @@ Today, burnout is often described as 'The Great Exhaustion' because according to
 ## 2.Data
 The dataset used for this project consists of HR Analytics data including, when an employee joined the company, there level in the company, gender, whether work from home options are available, their mental fatigue score, among other features and the target variable, the burn out rate.
 
-## Exploratory Data Analysis
+## 3.Exploratory Data Analysis
+#### 3.1 Handling missingness
+All rows with missing values in the target variable were droped. Missingness in the 'Resource Allocation' and 'Mental Fatigue Score' were imputed using median and mean respectively based on their distributions.
 
 
-## 5. Model Performance
+#### 3.2 Univariate Analysis
+
+#### 3.3 Bivariate Analysis
 
 
 
-## 4. Evaluation 
+## 4. Model Performance
+
+
+
+
+## 5. Evaluation 
 
 
 ## 6. Contributing
