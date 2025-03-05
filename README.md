@@ -28,13 +28,22 @@ All rows with missing values in the target variable were droped. Missingness in 
 
 
 #### 3.2 Univariate Analysis
-This section will brieflu highlight some of the insights learned from univariate analysis
+This section will briefly highlight some of the insights learned from univariate analysis
 The majority of employees hold mid-senior level positions, indicating a workforce with substantial experience and expertise. Their daily working hours typically range between 4 to 5 hours, suggesting a flexible or results-driven work environment. The short working hours could also suggest that the work is mostly project-based and propably their is an emphasis on quality and not quantity.
 
 ![Alt text](distributions.png)
 
-#### 3.3 Bivariate Analysis
+The inference that the work environment is flexible is further supported by the fact that majority of employees have work from home setup available for them. There is relatively an equal gender balance, with female employees being slightly more than male employees and majority of the workforce work in the service department.
+![Alt text](count_plots.png)
 
+#### 3.3 Bivariate Analysis
+From a correlation analysis we learn that:
+-The high your seniority, the more burn out.
+-The more hours you work, the higher your burn rate.
+-An increase in mental fatigue results in an increase in burn out rate.
+
+
+![Alt text](correlation_heatmap.png)
 
 
 ## 4. Model Performance
