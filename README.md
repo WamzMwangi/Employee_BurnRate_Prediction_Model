@@ -24,7 +24,7 @@ All rows with missing values in the target variable were droped. Missingness in 
 
 | Missingness in the data  | Data distributions of missing features |
 |:--------------:|:--------------:|
-| ![Visualization of missingness in the data with missingno](missing_data_matrix.png)| ![Data Distributions](data_distributions.jpg) |
+| ![Visualization of missingness in the data with missingno](missing_data_matrix.png)| ![Data Distributions](data_distributions.png) |
 
 #### 3.2 Univariate Analysis
 
